@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	<a href="ACT1.html">
+		<font size= "5"font face="Lato"  color="#000"> Go Back To Activities</font>
+	</a>&nbsp;&nbsp;&nbsp;&nbsp; <br><br><br>
+	
+	HTML Web Forms </head>
+	<body bgcolor="lightskyblue">
+		<form>
+			<fieldset>
+				<legend><b>PERSONAL INFORMATION</b></legend>
+<pre>
+First Name:	<input type="text">
+
+Last Name:	<input type="text">
+
+Age:		<input type="text" size="3" maxlength="3">
+
+Address:	<input type="text" size="50">
+
+</pre>
+<!----- City ---------------------------------------------------------->
+<tr>
+<td>CITY</td>
+<td><input type="text" name="City" maxlength="30" />
+(max 30 characters a-z and A-Z)
+</td>
+</tr>
+<br>
+<br>
+
+ 
+<!----- Pin Code ---------------------------------------------------------->
+<tr>
+<td>PIN CODE</td>
+<td><input type="text" name="Pin_Code" maxlength="6" />
+(6 digit number)
+</td>
+</tr>
+<br>
+<br>
+ 
+<!----- State ---------------------------------------------------------->
+<tr>
+<td>STATE</td>
+<td><input type="text" name="State" maxlength="30" />
+(max 30 characters a-z and A-Z)
+</td>
+</tr>
+ <br>
+<br>
+
+<!----- Country ---------------------------------------------------------->
+<tr>
+<td>COUNTRY</td>
+<td><input type="text" name="Country" value="" readonly="readonly" /></td>
+</tr>
+ <br>
+<br>
+<br>
+<!----- Hobbies ---------------------------------------------------------->
+ 
+<tr>
+<td><b>HOBBIES</b></td><br><br>
+
+<td>
+Drawing
+<input type="checkbox" name="Hobby_Drawing" value="Drawing" />
+Singing
+<input type="checkbox" name="Hobby_Singing" value="Singing" />
+Dancing
+<input type="checkbox" name="Hobby_Dancing" value="Dancing" />
+Sketching
+<input type="checkbox" name="Hobby_Cooking" value="Cooking" />
+Others
+<input type="checkbox" name="Hobby_Other" value="Other">
+<input type="text" name="Other_Hobby" maxlength="30" />
+</td>
+</tr>
+<br>
+<br>
+
+
+<label><b>
+Gender:
+</b></label><br><br>
+<input type="radio" name="male"/>Male
+<input type="radio" name="female"/>Female
+<input type="radio" name="other"/>Other
+<br><br>
+
+<label><b>
+Courses:
+</b></label><br><br>
+
+<select>
+
+<option value="Course">Course</option><br>
+<option value="Electrical Engineering">Electrical Engineering</option>
+<option value="Mechanical Engineering">Mechanical Engineering</option>
+<option value="Civil Engineering">Civil Engineering</option>
+<option value="Electrical Engineering">Electrical Engineering</option>
+<option value="Information Technology">Information Technology</option>
+
+</select>
+
+
+
+			</fieldset>
+			<br>
+			<fieldset>
+				<legend><b>ACCOUNT INFORMATION</b></legend>
+<pre>
+Email Address:	<input type="text">
+
+Password:	<input type="password">
+</pre>
+			</fieldset>
+			<br>
+			<fieldset>
+				<legend><b>EDUCATIONAL ATTAINMENT</b></legend>
+<pre>
+<input type="radio" id="primary" name="educ" value="Primary"> PRIMARY
+<input type="radio" id="secondary" name="educ" value="Secondary"> SECONDARY
+<input type="radio" id="bachelor's" name="educ" value="Bachelor's Degree"> BACHELOR'S DEGREE
+<input type="radio" id="masteral" name="educ" value="Masteral Degree"> MASTERAL DEGREE
+<input type="radio" id="doctorate" name="educ"value="Doctorate Degree"> DOCTORATE DEGREE
+</pre>
+
+
+			</fieldset>
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+		</form>
+	</body>
+</html>
